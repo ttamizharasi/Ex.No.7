@@ -23,11 +23,11 @@ Here's a structured plan to develop a prompt-based application using ChatGPT for
 Build a ChatGPT-driven app that helps users manage daily tasks using prompts — progressing from basic command interpretation to context-aware task planning.
 
 
-1.Define the Core Use Case
+# 1.Define the Core Use Case
 Prompt-Based Task Organizer: A user types a natural language prompt, and ChatGPT organizes it into structured to-do lists, prioritizes tasks, and offers scheduling suggestions.
 
 
-2.Simple Prompt Design
+# 2.Simple Prompt Design
 ◻Prompt Example:
 "List my tasks for today: email client, team meeting at 3 PM, grocery shopping."
 ✅Output:
@@ -40,9 +40,7 @@ Explanation:
 No time analysis or prioritization.
 Raw listing of user-entered items.
 
-
-
-3.Intermediate Prompt Design
+# 3.Intermediate Prompt Design
 ◻Prompt Example:
 "I have to send an email to the client, attend a team meeting at 3 PM, and go grocery shopping. Help me prioritize."
 ✅Output:
@@ -62,7 +60,7 @@ Explanation:
 
 
 
-4.Advanced Prompt Design with Context
+# 4.Advanced Prompt Design with Context
 ◻Prompt Example:
 "Based on my calendar, I have a doctor appointment at 11 AM, a report due by 5 PM, and I need to pick up my kids at 4 PM. I also want to find 30 minutes for exercise. Can you create a schedule?"
 ✅Output:
@@ -82,7 +80,7 @@ Explanation:
 
 
 
-5.Advanced Prompt Engineering Techniques
+# 5.Advanced Prompt Engineering Techniques
 
 Technique	Description	Example
 Few-shot prompting	Include examples to guide output	"Here’s how I like my tasks listed..."
@@ -90,7 +88,7 @@ Chain-of- thought	Ask the model to reason step by step	“Help me think through 
 Role-based prompting	Instruct the model to act like a productivity coach	“You are my task manager. Help me plan the day efficiently.”
 
 
-6.Implementation Options Frontend:
+# 6.Implementation Options Frontend:
 Simple Web UI using HTML/CSS/JS or React
 Backend:
 Python (Flask/FastAPI) to handle requests
@@ -106,7 +104,7 @@ messages=[{"role": "user", "content": "Organize my tasks for today: ..."}]
 )
 
 
-7.Possible Add-ons
+# 7.Possible Add-ons
 Integration with Google Calendar / Outlook
 Task reminders via email or notification
 Voice input support
@@ -124,7 +122,7 @@ Step	Feature	Prompt Example	Output
 
 Prompt: "Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time."
 
-AI Personal Productivity Assistant
+## AI Personal Productivity Assistant
 Key Objectives:
 Manage daily tasks with ease
 Schedule and remind users of important activities
@@ -135,7 +133,7 @@ Key Objectives:
 
 
 
-Core Features
+## Core Features
 1.Task Management
 Input: "Add ‘submit report’ to my task list for tomorrow."
 Output: “Got it. 'Submit report' added to your tasks for tomorrow.”
